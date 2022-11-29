@@ -36,7 +36,7 @@ Um número primo é aquele que é divisível somente por ele mesmo e por 1.
 7) Faça um programa que calcule o fatorial de um número inteiro e natural fornecido pelo usuário.
 
 """
-#Ex 01
+#Exercício 1
 a = 0
 b = 0
 c = 0
@@ -106,7 +106,7 @@ else:
     
 print ("A diferença entre a menor idade que respondeu Regular e a menor idade que respondeu Ruim: {}".format(resposta_final))
 
-#Ex 02
+#Exercício 2
 rodando = True
 altura_2 = []
 count = 0
@@ -134,7 +134,7 @@ print ("A maior e a menor altura do grupo: ", max(altura_2), min(altura_2))
 print("A média de altura das mulheresa média de altura das mulheres: ", altura_mulheres/num_mulheres )
 print ("Número de homens: {}".format(sexo_masc))
 
-#Ex 03
+#Exercício 3
 SP = 0
 Corin = 0
 Santos = 0
@@ -189,7 +189,7 @@ while rodando:
     elif op == 5:
         rodando = False
 
-#Ex 04
+#Exercício 4
 rodando = True
 total = []
 for i in range (1, 2):
@@ -201,7 +201,7 @@ for i in range (1, 2):
         r = total[j]+total[j+1]
         print (r)
 
-#Ex 05
+#Exercício 5
 numero = int(input("Digite um numero de 1 a 10: "))
 inicial = int (input ("Tamanho inicial: "))
 final = int (input ("Tamanho final: "))
@@ -210,7 +210,7 @@ for i in range(inicial, final+1):
     tab = numero*i
     print("{} X {} = {}".format(numero, i, tab))
 
-#Ex 06
+#Exercício 6
 num = int(input("Numero: "))
 div = 0
 
@@ -222,7 +222,7 @@ if div == 2:
 else: 
     print("Não primo")
 
-#Ex 07
+#Exercício 7
 numero = int(input("Numero: ") )
 
 resultado = 1

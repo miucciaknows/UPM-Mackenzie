@@ -1,5 +1,12 @@
-#Aula 01
+"""1) Faça um programa que peça as 4 notas bimestrais e mostre a média.
 
+2)Faça um programa que converta metros para milímetros. (1 m = 1000 milímetros).
+
+3) Faça um programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário. (área = lado2)
+
+4) Faça um programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no
+referido mês. (salario = valor x hora)
+"""
 #Exercício 1
 def soma(a,b):
     return a+b
