@@ -1,0 +1,24 @@
+Atividade 1
+
+4) RESPONDA: Aconteceu algum erro no TesteAluno? Se ocorreu, qual foi o erro e porque ocorreu? 
+R:Exception in thread "main" java.lang.RuntimeException: Uncompilable source code - cursoAluno has private access in pacote1.Aluno at pacote1.TesteAluno.main(TesteAluno.java:17)
+O codigo não foi construido com sucesso porque cursoAluno tinha acesso privado, sendo assim, a classe testeAluno não funciona já que não tem acesso a mesma.
+
+6. Crie uma nova classe chamada TesteFuncionario no pacote1, de acordo com o que se pede, a seguir:
+- crie uma instância da classe Funcionario e coloque as informações que você tiver acesso;
+- crie uma instância da classe Aluno e coloque as informações que você tiver acesso.
+
+RESPONDA: Quais informações você conseguiu inserir nas instâncias de Funcionario e Aluno? Por que? 
+R: o codFuncionario, o nomeFuncionario e o tia do aluno e o nomeAluno porque eles tem acesso publico.
+
+9. Crie uma nova classe chamada TesteFornecedor no pacote2, de acordo com o que se pede, a seguir:
+- crie uma instância da classe Fornecedor e coloque as informações que você tiver acesso;
+- crie uma instância da classe Funcionario e coloque as informações que você tiver acesso;
+- crie uma instância da classe Aluno e coloque as informações que você tiver acesso.
+
+RESPONDA: Quais informações você conseguiu inserir nas instâncias de Fornecedor, Funcionario e Aluno? Por que? 
+R: nomeForncedor, codFornecedor, TIA, codFuncionario. Na Classe funcionario os atributos tinham acesso para a classe de teste ser
+construida com sucesso, e no Aluno e Funcionario só foram inseridos atributos que tinham acesso publico pois só assim eu conseguriia os acessar vindo de outro pacote.
+
+
+
